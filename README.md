@@ -1,61 +1,36 @@
-# CodeEduca
+Aqui está a descrição completa, incluindo o contexto do projeto CodeEduca e sua contribuição para a ODS 4, pronta para ser usada como base para o seu `README.md` ou outra documentação:
 
-**CodeEduca** é um projeto web educacional desenvolvido com **HTML, CSS, Bootstrap, PHP e MySQL**, criado com o objetivo de promover o aprendizado de programação por meio de um quiz interativo em **tema dark**, tornando o estudo mais envolvente, acessível e inclusivo.  
+## ⚙️ Descrição Completa do Projeto e Tecnologias
 
-O projeto está alinhado à **ODS 4 – Educação de Qualidade**, buscando democratizar o acesso ao conhecimento tecnológico e incentivar a autonomia no processo de aprendizagem.
+### 💡 O que é o CodeEduca?
 
----
+O **CodeEduca** é uma plataforma web dinâmica desenvolvida para ser um **Banco de Questões Online**. Seu objetivo principal é fornecer aos usuários as ferramentas necessárias para **criar, gerenciar, organizar e praticar** com grupos de questões personalizados sobre diversos assuntos. O sistema oferece:
 
-## 🎯 Objetivo Geral
-
-Promover o aprendizado de programação de maneira acessível, dinâmica e atrativa, utilizando um ambiente gamificado que incentiva o desenvolvimento do raciocínio lógico e o interesse pela tecnologia.
-
----
-
-## ✅ Objetivos Específicos
-
-- Facilitar o acesso ao conteúdo de programação através de um quiz interativo.
-- Estimular a autonomia do estudante no processo de aprendizagem.
-- Tornar o estudo mais agradável por meio de elementos visuais em tema dark, reduzindo cansaço visual.
-- Permitir que os usuários acompanhem seu desempenho e evolução ao longo do uso.
-- Contribuir para a inclusão digital, aproximando mais pessoas do universo da programação.
+* **Gerenciamento (CRUD):** Permite adicionar, editar, excluir e atualizar questões e tópicos.
+* **Controle de Acesso:** Sistema de login, cadastro e edição de perfil.
+* **Modo de Estudo:** Oferece quizzes públicos e privados para prática contínua e autoavaliação do conhecimento.
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+### 🔗 Contribuição com a ODS 4: Educação de Qualidade
 
-| Tecnologia | Função |
-|-----------|--------|
-| **HTML5** | Estrutura das páginas |
-| **CSS3** | Estilização visual do projeto |
-| **Bootstrap** | Layout responsivo e componentes prontos |
-| **PHP** | Lógica do quiz e integração com o banco |
-| **MySQL** | Armazenamento de perguntas, respostas e resultados |
+O CodeEduca contribui de forma **direta e significativa** para o **Objetivo de Desenvolvimento Sustentável 4 (ODS 4)** da ONU, que visa "Assegurar a educação inclusiva e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos".
+
+* **Apoio à Meta 4.4 (Habilidades Relevantes):** Ao focar em temas de programação e diversos, o projeto fornece um meio acessível para que jovens e adultos possam **adquirir e testar habilidades técnicas e vocacionais** essenciais no mercado de trabalho atual.
+* **Promoção da Aprendizagem ao Longo da Vida (Meta 4.3):** Como uma ferramenta de estudo online e flexível, o CodeEduca permite que os usuários personalizem seu aprendizado e pratiquem continuamente, promovendo a educação a qualquer tempo e fase da vida.
 
 ---
 
-## 🌐 Tema Visual
-O projeto utiliza **tema escuro (Dark Mode)** para proporcionar:
-- Conforto visual
-- Interface moderna
-- Imersão no conteúdo
+### 🖥️ Ferramentas e Tecnologias Utilizadas
 
----
+O projeto é construído sobre uma arquitetura robusta de desenvolvimento web em Java, utilizando o padrão **MVC (Model-View-Controller)** para separar a lógica do negócio da interface do usuário.
 
-## 📌 Status do Projeto
-Em desenvolvimento 🚧  
-(Alguns módulos ainda serão definidos e implementados.)
-
----
-
-## 👨‍💻 Autoria
-Desenvolvido como projeto educacional com foco na promoção da **Educação de Qualidade**, conforme a **ODS 4**.
-
----
-
-Se quiser, posso agora:
-- Criar o **script do banco de dados**
-- Começar a **página inicial**
-- Criar o **logo** do projeto
-
-Só me avisar 😊
+| Tecnologia | Função na Aplicação | Uso no CodeEduca |
+| :--- | :--- | :--- |
+| **Java** | Linguagem de Programação | Linguagem fundamental utilizada para implementar toda a **lógica de *backend***, desde validações de login até as operações **CRUD** sobre o banco de questões. |
+| **NetBeans IDE** | Ambiente de Desenvolvimento | IDE utilizada para escrever, compilar, testar e realizar o *deploy* (publicação) do código Java Web. |
+| **Apache Tomcat** | Servidor de Aplicações | Essencial para a **execução** da aplicação. Ele recebe as requisições HTTP e atua como o **contêiner** que gerencia e executa os Servlets e JSPs. |
+| **Servlets** | **Controller** (Controlador) | Recebem as requisições do usuário, processam a lógica de negócio (ex: busca no banco de dados via JDBC) e encaminham os dados processados para as JSPs. |
+| **JSP (JavaServer Pages)** | **View** (Visualizador) | Responsáveis pela **interface do usuário**. Elas misturam HTML com código Java (que gera conteúdo dinâmico) para montar a página final que é enviada ao navegador. |
+| **JDBC** | Conectividade com DB | API utilizada para estabelecer a **conexão** e realizar as operações de leitura e escrita com o Banco de Dados. |
+| **Banco de Dados** | Persistência de Dados | SGBD Relacional (a ser definido, ex: MySQL/PostgreSQL) para armazenar usuários, tópicos e todas as questões do sistema. |
