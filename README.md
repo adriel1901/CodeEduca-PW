@@ -1,5 +1,3 @@
-Aqui está a descrição completa, incluindo o contexto do projeto CodeEduca e sua contribuição para a ODS 4, pronta para ser usada como base para o seu `README.md` ou outra documentação:
-
 ## ⚙️ Descrição Completa do Projeto e Tecnologias
 
 ### 💡 O que é o CodeEduca?
